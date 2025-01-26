@@ -1,7 +1,7 @@
 chrome.action.onClicked.addListener((tab) => {
     if (tab.url) {
       // URL para gerar o QR Code
-      const qrUrl = "https://api.qrserver.com/v1/create-qr-code/?data=${encodeURIComponent(tab.url)}&size=300x300";
+      const qrUrl = `https://api.qrserver.com/v1/create-qr-code/?data=${encodeURIComponent(tab.url)}&size=200x200`;
   
       // Injeta o código na página ativa
       chrome.scripting.executeScript({

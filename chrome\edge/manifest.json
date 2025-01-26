@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
     "name": "QR Code Generator Button",
-    "version": "1.6",
+    "version": "1.0",
     "description": "Adiciona um botão ao lado do tradutor para gerar QR Codes do site atual.",
     "permissions": ["activeTab", "scripting"],
     "background": {
